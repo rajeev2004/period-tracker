@@ -30,7 +30,6 @@ A full-stack period tracker application that helps users record and monitor thei
 
 ### 📥 Clone the Repository
 
-    ```bash
     git clone https://github.com/rajeev2004/period-tracker.git
     cd period-tracker
 
