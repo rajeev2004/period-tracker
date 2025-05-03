@@ -1,0 +1,138 @@
+body {
+  background-image: url("../src/assets/background.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.homepage {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+p {
+  margin: 0;
+  font-size: 18px;
+}
+.cycle-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.cycle-form-date {
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.cycle-form-date div {
+  max-width: 300px;
+}
+.cycle-form-symptom {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.cycle-form-symptom label {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+input,
+textarea,
+button {
+  font-size: 16px;
+  border-radius: 10px;
+  border: 1px solid lightcoral;
+}
+input,
+textarea:focus {
+  box-shadow: 2px 4px 8px 0 rgba(0, 0, 0, 0.2);
+  outline: none;
+}
+button {
+  background-color: lightcoral;
+  transition: all 0.5s ease-in-out;
+  cursor: pointer;
+}
+button:hover {
+  transform: scale(1.2);
+}
+h2,
+h1 {
+  text-align: center;
+  text-decoration: underline;
+}
+.cycle-list-child {
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.cycle-item,
+.cycle-edit {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px;
+  border: 2px solid lightcoral;
+  border-radius: 10px;
+  padding: 5px 5px;
+  flex: 1 1 250px;
+}
+.cycle-button {
+  display: flex;
+  gap: 5px;
+  flex-wrap: wrap;
+}
+.stats-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  flex-wrap: wrap;
+  border: 2px solid lightcoral;
+  padding: 5px 5px;
+  border-radius: 10px;
+}
+.calendar-component {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  justify-content: center;
+  align-items: center;
+}
+img {
+  border-radius: 50%;
+}
+.stats-container div img {
+  width: 40px;
+  height: 40px;
+}
+.stats-container div {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+}
+select {
+  font-size: 16px;
+  border-radius: 10px;
+  border: 1px solid lightcoral;
+  outline: none;
+}
+.pagination-button {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 10px;
+}
