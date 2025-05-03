@@ -36,14 +36,17 @@ A full-stack period tracker application that helps users record and monitor thei
 
 ### **Backend Setup**
 1. Navigate to backend:
+
    ```bash
    cd backend
 
 2. Install dependencies:
+
    ```bash
    npm install
 
 3. Make a postgreSQL database and run this SQL manually:
+
     ```bash
     CREATE TABLE cycles (
         id SERIAL PRIMARY KEY,
@@ -63,28 +66,34 @@ A full-stack period tracker application that helps users record and monitor thei
 
 4. Create a .env file and add the following environment variables: 
     ```bash
+
     DATABASE_URL=your_database_url
     PORT=5000
 
 4. Start the backend server (ensure the database is set up):
     ```bash
+
     node server.js
 
 ### **Frontend Setup**
 1. Navigate to frontend:
    ```bash
+
    cd frontend
 
 2. Install dependencies:
     ```bash
+
     npm install
 
 3. Create a .env file and add the following:
     ```bash
+
     VITE_API_BACKEND=http://localhost:5000
 
 4. Start the frontend development server:
     ```bash
+
     npm run dev
 
 5. Access the application at http://localhost:5173
