@@ -93,4 +93,4 @@ A full-stack period tracker application that helps users record and monitor thei
 
 You can check out the live website [here](https://rajeev2004.github.io/period-tracker/)
 
-![period-tracker Screenshot](https://raw.githubusercontent.com/rajeev2004/ClickStayDine-Restaurant-and-Hotel-Booking-Website/refs/heads/main/src/assets/Screenshot%202025-03-10%20163902.png?raw=true)
+![period-tracker Screenshot](https://raw.githubusercontent.com/rajeev2004/period-tracker/refs/heads/main/frontend/src/assets/period-tracker%20ss.png?raw=true)
